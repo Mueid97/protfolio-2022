@@ -286,11 +286,24 @@ header .navbar ul li a:hover{
 
 .portfolio .box-container{
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding:2rem 0;
 }
+
+.details{
+   
+    margin: 0 20px 30px 20px;
+    
+}
+
+.border{
+    border: 2px solid var(--blue);
+    border-radius: 15px;
+}
+
 
 .portfolio .box-container .box{
     height: 20rem;
@@ -299,6 +312,7 @@ header .navbar ul li a:hover{
     margin:2rem;
     overflow: hidden;
     cursor: pointer;
+    padding-left: 30px;
 }
 
 .portfolio .box-container .box img{
@@ -435,6 +449,7 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
+    
  
  }
 
@@ -459,6 +474,16 @@ header .navbar ul li a:hover{
     .portfolio .box-container .box{
         width:100%;
     }
+
+    .detailItems img{
+     width: 200px;
+     height: 400px;
+    }
+
+    .detailPoint p{
+        text-align: center;
+    }
+    
 
     .contact .row form{
         margin:3rem 0;
